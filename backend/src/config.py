@@ -5,7 +5,7 @@ import tempfile
 
 
 BACKEND_DIR = Path(__file__).resolve().parents[1]
-ALLOWED_CATEGORIES = {"tops", "bottoms", "one-pieces"}
+ALLOWED_CATEGORIES = {"tops", "bottoms", "one-pieces", "jewelry"}
 DEFAULT_CORS_ORIGINS = ("http://localhost:3000", "http://127.0.0.1:3000")
 
 
